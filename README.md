@@ -1,5 +1,7 @@
 # Dokuwiki Farm Docker Container
 
+[![](https://images.microbadger.com/badges/image/xanmanning/dokuwiki-farm.svg)](https://microbadger.com/images/xanmanning/dokuwiki-farm "Get your own image badge on microbadger.com")
+
 A convenient Dokuwiki container that can run as a farm.
 
 ## To run image:
