@@ -53,7 +53,7 @@ Set `DW_SSO` to 1, eg.:
 
 ```
 docker run -d -p 80:80 --name my_wiki_farm \
-    -e DW_SSO=1
+    -e DW_SSO=1 \
     -v $(pwd)/data:/var/www/dokuwiki/data \
     -v $(pwd)/conf:/var/www/dokuwiki/conf \
     -v $(pwd)/inc:/var/www/dokuwiki/inc \
@@ -67,7 +67,7 @@ When re-starting containers do a git pull of the `stable` branch.
 
 ```
 docker run -d -p 80:80 --name my_wiki_farm \
-    -e DW_GIT_PULL=1
+    -e DW_GIT_PULL=1 \
     -v $(pwd)/data:/var/www/dokuwiki/data \
     -v $(pwd)/conf:/var/www/dokuwiki/conf \
     -v $(pwd)/inc:/var/www/dokuwiki/inc \
